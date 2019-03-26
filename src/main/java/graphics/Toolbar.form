@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="graphics.Toolbar">
+  <grid id="27dc6" binding="toolbar" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+    <constraints>
+      <xy x="20" y="20" width="1310" height="532"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="99b4f" class="javax.swing.JButton" binding="newDocumentButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-1"/>
+          <hideActionText value="true"/>
+          <icon value="new.png"/>
+          <text value=""/>
+          <toolTipText value="New Document"/>
+        </properties>
+      </component>
+      <component id="49f31" class="javax.swing.JButton" binding="XORButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+          <icon value="xor.png"/>
+          <text value=""/>
+          <toolTipText value="XOR"/>
+        </properties>
+      </component>
+      <component id="61ba5" class="javax.swing.JButton" binding="replaceButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+          <icon value="replace.png"/>
+          <text value=""/>
+          <toolTipText value="Replace"/>
+        </properties>
+      </component>
+      <component id="fe31d" class="javax.swing.JButton" binding="optionsButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+          <horizontalTextPosition value="2"/>
+          <icon value="options.png"/>
+          <text value=""/>
+          <toolTipText value="Options"/>
+        </properties>
+      </component>
+      <component id="80bcd" class="javax.swing.JButton" binding="resetButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+          <icon value="reset.png"/>
+          <text value=""/>
+          <toolTipText value="Reset"/>
+        </properties>
+      </component>
+      <component id="98dab" class="javax.swing.JButton" binding="aboutButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+          <icon value="about.png"/>
+          <text value=""/>
+          <toolTipText value="About"/>
+        </properties>
+      </component>
+      <component id="3a0ea" class="javax.swing.JButton" binding="startButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+          <icon value="start.png"/>
+          <text value=""/>
+          <toolTipText value="Start"/>
+        </properties>
+      </component>
+      <component id="2082d" class="javax.swing.JButton" binding="stopButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+          <icon value="stop.png"/>
+          <text value=""/>
+          <toolTipText value="Stop"/>
+        </properties>
+      </component>
+      <component id="91b39" class="javax.swing.JButton" binding="nextButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-1"/>
+          <enabled value="true"/>
+          <foreground color="-1"/>
+          <icon value="next.png"/>
+          <text value=""/>
+          <toolTipText value="Next"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
